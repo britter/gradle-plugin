@@ -87,7 +87,7 @@ dependencies {
   testImplementation 'org.jenkins-ci.test:docker-fixtures:1.11'
   testImplementation 'org.jenkins-ci.plugins:ssh-slaves:1.33.0'
 
-  testImplementation 'org.spockframework:spock-core:1.2-groovy-2.4'
+  testImplementation 'org.spockframework:spock-core:2.1-groovy-3.0'
 
   testRuntimeOnly "org.jenkins-ci.main:jenkins-war:${coreBaseVersion}"
 
